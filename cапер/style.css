@@ -1,0 +1,26 @@
+.container{
+padding: auto;
+}
+.new-game{
+    height: 38px;
+    width: 114px;
+    font-size: 15px;
+}
+
+.field{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, auto);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+}
+
+button:disabled {
+    height: 40px;
+    font-size: 24px;
+    background-color: aqua;
+}
